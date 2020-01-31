@@ -1,24 +1,31 @@
-Final Year Project: Visualising Software Defined-Networking using Ryu and Mininet
+# Final Year Project: Visualising Software Defined-Networking using Ryu and Mininet
 
-Hardware & Software Installation
+## Hardware & Software Installation
 
-Hardware
+### Hardware
 My PC general specifications: Intel Core i5 Dual-Core 1.70 GHz with 4GB of RAM(8GB and better processor speed is recommended because virtualization takes a lot of your computer resources)
 
 I use Windows so I need to set up below software before I start other installation as stated below:
 
-Software
+### Software
 
-VirtualBox https://www.virtualbox.org/wiki/Downloads
-Xming X Server https://sourceforge.net/projects/xming/
-PuTTY https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+* VirtualBox https://www.virtualbox.org/wiki/Downloads
+* Xming X Server https://sourceforge.net/projects/xming/
+* PuTTY https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
-Other
+### Other
 Ubuntu https://ubuntu.com/download/desktop
 In my case, I use Ubuntu Server 16.04.3 LTS but you can use whatever Ubuntu version you have from 14, or 18. I recommend you to use the desktop version if you're not familiar with server but server is simple and light, suited to what I'll only be doing which is the project.
 
-Setting up VM
+__Setting up VM__
+Select your VM and go to the Settings Tab. Go to Network->Adapter 2. Select the "Enable adapter" box, and attach it to "host-only network".(Sidenote: on a new VirtualBox installation you may not have any "host-only network" configured yet. To have one select Global Tools -> Host Network Manager -> create or File -> Host Network Manager -> create. Click create with default settings. Then you can try the attach.) This will allow you to easily access your VM through your host machine.
 
+At that point you should be ready to start your VM. Press the "Start" arrow icon or double-click your VM within the VirtualBox window. 
+
+__Setting up Network Access__
+You should make sure your VM has two network interfaces. One should be a NAT interface that it can use to access the Internet, and the other should be a host-only interface to enable it to communicate with the host machine. For example, your NAT interface could be eth0 and have a 10.x IP address, and your host-only interface could be eth1 and have a 192.168.x IP address. You should ssh into the host-only interface at its associated IP address. Both interfaces should be configured using DHCP. If they are not already configured, you may have to run dhclient on each of them, as described below.
+
+For more detailed instructions, see VirtualBox Specific Instructions. 
 
 Mininet http://mininet.org/
 I use http://mininet.org/download/#option-2-native-installation-from-source since it's the better way to get start developing.
