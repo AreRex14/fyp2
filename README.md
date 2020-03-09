@@ -20,7 +20,7 @@ I use Windows so I need to set up below software before I start other installati
 I use Ubuntu Server 16.04.3 LTS but you can use whatever Ubuntu version you have from 14, or 18. It is however recommended to use Ubuntu 16 or 18 only because the older 14 or the latest one, 19 may have some problems while installing Ryu SDN framework. If you're not familiar with the server version which are simple and light, then you can use the desktop version.
 
 ##### __Setting up VM__
-Follow this [wiki on set up virtual machine]9https://github.com/mininet/openflow-tutorial/wiki/Set-up-Virtual-Machine#Finish_VM_Setup)
+Follow this [wiki on set up virtual machine](https://github.com/mininet/openflow-tutorial/wiki/Set-up-Virtual-Machine#Finish_VM_Setup)
 
 ##### __Setting up Network Access__
 Follow this [wiki on set up network access](https://github.com/mininet/openflow-tutorial/wiki/Set-up-Virtual-Machine#Set_Up_Network_Access)
@@ -44,4 +44,4 @@ If you are using Ubuntu Server, you may need to install it the other way by inst
 It can be installed by git clone the repository.
 
 #### Firefox
-If you use GUI-based Ubuntu version, it's probably pre-installed already and if not, then you need to install it through the package manager. If you are using Ubuntu Server and have not installed the X11 itself and a windows manager, flwm or lxde, you can by follow this [wiki on running a GUI in the VM console window][https://github.com/mininet/openflow-tutorial/wiki/Set-up-Virtual-Machine#Alternative_Run_a_GUI_in_the_VM_console_window]. After that, doing _sudo apt-get install firefox_ will install ffox and its dependencies, as well as a runtime environment
+If you use GUI-based Ubuntu version, it's probably pre-installed already and if not, then you need to install it through the package manager. If you are using Ubuntu Server and have not installed the X11 itself and a windows manager, flwm or lxde, you can by follow this [wiki on running a GUI in the VM console window](https://github.com/mininet/openflow-tutorial/wiki/Set-up-Virtual-Machine#Alternative_Run_a_GUI_in_the_VM_console_window). After that, doing _sudo apt-get install firefox_ will install ffox and its dependencies, as well as a runtime environment
