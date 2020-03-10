@@ -1,6 +1,20 @@
 # Final Year Project: Visualising Software Defined-Networking using Ryu and Mininet
 
-## Setting up network test bed for Software-Defined Networking
+## Explanation slides
+You can view it at this [Google Drive link](https://drive.google.com/file/d/1-Y2Dm2jJJi_xTyYHcp-0HjGHjkUTdzNx/view?usp=sharing)
+
+## My Software-Defined Network(along with other setups completed)
+You can get it at this [Google Drive link](https://drive.google.com/file/d/1-biQrQG8MhXaX6VorSlmGy73LYzEw2DN/view?usp=sharing).
+
+## Demo videos
+1. [Simple Web Server and Client](https://drive.google.com/file/d/1-2x9P_S8ENII0ebv8rNZXTGJJN821pCn/view?usp=sharing)
+2. [Simulating Switching Hub](https://drive.google.com/file/d/1-Jwpa_zM4bTpd0A5qErpwvrHhG1s2-oH/view?usp=sharing)
+3. [Interact with Ryu using Postman](https://drive.google.com/drive/folders/103odq5cu5m8F4rEcoqq1UBuiXXfbV3t_?usp=sharing)
+4. [Ryu with Flow Manager](https://drive.google.com/drive/folders/1-qKCp7tPDSw1XyXv0CKIRcZGD4vJZs56?usp=sharing)
+5. [Experimenting with VLAN](https://drive.google.com/drive/folders/1-ioIH_r7RlPOqjDWDSgKFZR8YrC0rdso?usp=sharing)
+6. [Simple performance measurement experimentation](https://drive.google.com/file/d/1-FfxqqrOPyv2RLDwuQZpkrcBLWKX1Md0/view?usp=sharing)
+
+## Setting up network test bed for Software-Defined Networking(If you want to set it up yourself)
 
 ### Hardware
 My machine general specifications: 
