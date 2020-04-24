@@ -1,12 +1,15 @@
 # Final Year Project: Visualising Software Defined-Networking using Ryu and Mininet
 
-## Explanation slides
+## Project Paper
+You can view it at this [Google Drive link](https://drive.google.com/open?id=10VTDsbn1Uk7HXbeOAyGF5RuovBKkp16w)
+
+## Explanation Slides
 You can view it at this [Google Drive link](https://drive.google.com/file/d/1-Y2Dm2jJJi_xTyYHcp-0HjGHjkUTdzNx/view?usp=sharing)
 
 ## My Software-Defined Network(along with other setups completed)
 You can get it at this [Google Drive link](https://drive.google.com/file/d/1-biQrQG8MhXaX6VorSlmGy73LYzEw2DN/view?usp=sharing).
 
-## Demo videos
+## Demo Videos
 1. [Simple Web Server and Client](https://drive.google.com/file/d/1-2x9P_S8ENII0ebv8rNZXTGJJN821pCn/view?usp=sharing)
 2. [Simulating Switching Hub](https://drive.google.com/file/d/1-Jwpa_zM4bTpd0A5qErpwvrHhG1s2-oH/view?usp=sharing)
 3. [Interact with Ryu using Postman](https://drive.google.com/drive/folders/103odq5cu5m8F4rEcoqq1UBuiXXfbV3t_?usp=sharing)
